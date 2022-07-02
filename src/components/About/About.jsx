@@ -5,7 +5,7 @@ const About = React.forwardRef((props, ref) => {
     return (
         <>
             <div className="container-fluid bg-black pt-4" id="about" ref={ref}>
-                <div className="container-sm p-5">
+                <div className="container-sm p-5 container-mob">
                     <h2 className="text-light ">About</h2>
                     <p class="btn-bottom pt-2 pb-2" />
                     <p className="text-light">

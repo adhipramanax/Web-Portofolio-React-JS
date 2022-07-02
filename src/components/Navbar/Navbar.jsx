@@ -32,10 +32,25 @@ const Navbar = (props) => {
                                     Panji Adhipramana
                                 </a>
                             </div>
-                            <div className="navbar-nav">
+                            <div className="btn-burger">
+                                <button
+                                    class="navbar-toggler"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown"
+                                    aria-controls="navbarNavDropdown"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="text-light bi bi-list"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div className="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse menu-mobile" id="navbarNavDropdown">
                                 {navbars.map((navbar, index) => {
                                     return (
-                                        <a className={"nav-link text-light" + (props.navbarPosition === index ? " btn-bottom" : "")} href={navbar.link} key={index}>
+                                        <a className={"nav-link text-light text-center " + (props.navbarPosition === index ? " btn-bottom" : "")} href={navbar.link} key={index}>
                                             {navbar.name}
                                         </a>
                                     );

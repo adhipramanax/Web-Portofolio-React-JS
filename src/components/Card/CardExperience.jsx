@@ -17,6 +17,25 @@ const CardExperience = () => {
                                     <div className="col-9">
                                         <h1 class="card-title m-0">DICODING</h1>
                                         <span className="">PT Dicoding Akademi Indonesia</span>
+                                        <div className="btn-link-desk">
+                                            <p className="btn-bottom-dark"></p>
+                                            <div>
+                                                <span className="">HTML</span>
+                                                <span>CSS</span>
+                                                <span>JavaScript</span>
+                                            </div>
+                                            <p class="card-text">Scholarships given by Indosat Ooredoo are in the form of Basic Web Programming courses.</p>
+                                            <div className="d-flex gap-2">
+                                                <a href="https://www.dicoding.com" target="_blank" class="btn btn-dark">
+                                                    View Site
+                                                </a>
+                                                <a href="#" target="_blank" class="btn btn-dark">
+                                                    View Certificate
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="btn-link-mob">
                                         <p className="btn-bottom-dark"></p>
                                         <div>
                                             <span className="">HTML</span>
@@ -24,15 +43,12 @@ const CardExperience = () => {
                                             <span>JavaScript</span>
                                         </div>
                                         <p class="card-text">Scholarships given by Indosat Ooredoo are in the form of Basic Web Programming courses.</p>
-                                        <div className="d-flex gap-2">
-                                            <a href="https://www.dicoding.com" target="_blank" class="btn btn-dark">
+                                        <div className="d-flex gap-2 ">
+                                            <a href="https://www.dicoding.com" target="_blank" class="btn btn-dark w-100">
                                                 View Site
                                             </a>
-                                            <a href="#" target="_blank" class="btn btn-dark">
+                                            <a href="#" target="_blank" class="btn btn-dark w-100">
                                                 View Certificate
-                                            </a>
-                                            <a href="#" target="_blank" class="btn btn-dark">
-                                                Repository
                                             </a>
                                         </div>
                                     </div>
@@ -49,19 +65,32 @@ const CardExperience = () => {
                                     <div className="col-9">
                                         <h1 class="card-title m-0">BINAR ACADEMY</h1>
                                         <span className="">PT Dicoding Akademi Indonesia</span>
+                                        <div className="btn-link-desk">
+                                            <p className="btn-bottom-dark"></p>
+                                            <p class="card-text">
+                                                Studies facilitated by the government are independent campuses to study outside campus for one full semester learning about Full stack web Developer.
+                                            </p>
+                                            <div className="d-flex gap-2">
+                                                <a href="#" class="btn btn-dark">
+                                                    View Site
+                                                </a>
+                                                <a href="#" class="btn btn-dark">
+                                                    View Certificate
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="btn-link-mob">
                                         <p className="btn-bottom-dark"></p>
                                         <p class="card-text">
                                             Studies facilitated by the government are independent campuses to study outside campus for one full semester learning about Full stack web Developer.
                                         </p>
                                         <div className="d-flex gap-2">
-                                            <a href="#" class="btn btn-dark">
+                                            <a href="#" class="btn btn-dark w-100">
                                                 View Site
                                             </a>
-                                            <a href="#" class="btn btn-dark">
+                                            <a href="#" class="btn btn-dark w-100">
                                                 View Certificate
-                                            </a>
-                                            <a href="#" class="btn btn-dark">
-                                                Repository
                                             </a>
                                         </div>
                                     </div>
