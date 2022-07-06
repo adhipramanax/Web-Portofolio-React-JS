@@ -4,6 +4,7 @@ import Jumbotron from "../components/Jumbotron/Jumbotron";
 import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import Experience from "../components/Experience/Experience";
+import Skill from "../components/Skill/Skill";
 
 const Home = () => {
     const [scroll, setScroll] = useState(0);
@@ -16,7 +17,7 @@ const Home = () => {
             offsetTop.push(item.offsetTop);
         });
 
-        const offset = 90;
+        const offset = 100;
 
         window.addEventListener("scroll", () => {
             console.log(window.scrollY);
@@ -41,6 +42,7 @@ const Home = () => {
             <Jumbotron ref={(el) => (navRef.current[0] = el)} />
             <About ref={(el) => (navRef.current[1] = el)} />
             <Experience ref={(el) => (navRef.current[2] = el)} />
+            <Skill ref={(el) => (navRef.current[3] = el)} />
             <Footer />
         </>
     );

@@ -1,0 +1,19 @@
+.container-a {
+    /* width: 100%; */
+    height: 100%;
+    background-color: none;
+    /* display: grid; */
+    /* place-items: center; */
+}
+
+.picture {
+    font-size: 10px;
+    line-height: 10px;
+    background: url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657090818/Web%20Fortofolio/panji-bw.png") center no-repeat;
+    background-size: 100%;
+    /* background-size: contain; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: rgba(255, 255, 255, 0.1); */
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
+}

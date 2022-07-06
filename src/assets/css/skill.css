@@ -1,0 +1,302 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400);
+@-webkit-keyframes load {
+    0% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes load {
+    0% {
+        stroke-dashoffset: 0;
+    }
+}
+.progresses {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+.progresses > li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #93a2ac;
+    font-family: Lato;
+    font-weight: 100;
+    margin: 2rem;
+}
+.progresses > li:before {
+    content: attr(data-name);
+    position: absolute;
+    width: 100%;
+    bottom: -2rem;
+    font-weight: 400;
+}
+.progresses > li:after {
+    content: attr(data-percent);
+    position: absolute;
+    width: 100%;
+    top: 3.7rem;
+    left: 0;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+.progresses svg {
+    width: 10rem;
+    height: 10rem;
+}
+.progresses svg:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-90deg);
+}
+.progresses svg:nth-child(2) path {
+    fill: none;
+    stroke-width: 15;
+    stroke-dasharray: 629;
+    stroke: #fff;
+    opacity: 0.9;
+    -webkit-animation: load 10s;
+    animation: load 10s;
+}
+
+/* card skills */
+.nav-link-bar {
+    color: #ef6817 !important;
+}
+
+.skills {
+    width: 90%;
+    margin: 0 auto;
+}
+.skills h1 {
+    text-align: center;
+    font-family: Verdana;
+    color: #cccccc;
+    font-weight: 300;
+}
+.skills hr {
+    margin: 50px 5%;
+}
+.skills .skill-column {
+    width: 50%;
+    float: left;
+}
+@media (max-width: 1000px) {
+    .skills .skill-column {
+        width: 100%;
+    }
+}
+.skills .skill-column .skill-label {
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana;
+    color: #cccccc;
+}
+.skills .skill-column .skill-icons {
+    text-align: center;
+}
+.skills .skill-column .skill-icons span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #cccccc;
+    margin: 10px 5px 20px 5px;
+    font-weight: 700;
+}
+
+/* skill bar */
+
+.bar-skill {
+    width: 100%;
+    background-color: #ddd;
+    display: relative;
+    border-radius: 2px;
+}
+
+.skills {
+    text-align: right;
+    /* padding-right: 20px; */
+    /* line-height: 40px; */
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+/* Html */
+.html {
+    width: 80%;
+    background-color: #ef6817;
+    display: inline-block;
+    animation: html5 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes html5 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+/* css */
+.css {
+    width: 75%;
+    background-color: #27ae60;
+    display: inline-block;
+    animation: css3 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes css3 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 75%;
+    }
+}
+/* react */
+.react {
+    width: 65%;
+    background-color: #04d8f9;
+    display: inline-block;
+    animation: react 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes react {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 65%;
+    }
+}
+/* bootstrap */
+.bootstrap {
+    width: 80%;
+    background-color: #563d7c;
+    display: inline-block;
+    animation: bootstrap 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes bootstrap {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+/* laravel */
+.laravel {
+    width: 30%;
+    background-color: #fb503b;
+    display: inline-block;
+    animation: laravel 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes laravel {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 30%;
+    }
+}
+/* javascript */
+.javascript {
+    width: 30%;
+    background-color: #f0db4f;
+    display: inline-block;
+    animation: javascript 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes javascript {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 30%;
+    }
+}
+/* Figma */
+.figma {
+    width: 75%;
+    background-color: #ff69b4;
+    display: inline-block;
+    animation: figma 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes figma {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 75%;
+    }
+}
+/* corel Draw */
+.corel {
+    width: 50%;
+    background-color: #00ff00;
+    display: inline-block;
+    animation: corel 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes corel {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 50%;
+    }
+}
+/* Express Js */
+.express {
+    width: 30%;
+    background-color: #68a063;
+    display: inline-block;
+    animation: express 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes express {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 30%;
+    }
+}
+/* git */
+.git {
+    width: 80%;
+    background-color: #3e2c0d;
+    display: inline-block;
+    animation: git 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes git {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+/* scrum */
+.scrum {
+    width: 80%;
+    background-color: #1d202d;
+    display: inline-block;
+    animation: scrum 2s ease-out;
+    padding-right: 10px;
+}
+@keyframes scrum {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}

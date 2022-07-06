@@ -3,8 +3,8 @@ import React from "react";
 const Jumbotron = React.forwardRef((props, ref) => {
     return (
         <>
-            <div className="container-fluid bg-minimalist">
-                <div className="container-sm " id="home" ref={ref}>
+            <div className="container-fluid bg-minimalist ">
+                <div className="container-sm" id="home" ref={ref}>
                     <div class="jumbotron  d-flex align-items-center flex-direction-column ">
                         <div className="col-8 jumbotron-desc">
                             <div className="mobile-img">
