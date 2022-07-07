@@ -5,6 +5,8 @@ import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import Experience from "../components/Experience/Experience";
 import Skill from "../components/Skill/Skill";
+import Project from "../components/Project/Project";
+import Other from "../components/Other/Other";
 
 const Home = () => {
     const [scroll, setScroll] = useState(0);
@@ -43,6 +45,8 @@ const Home = () => {
             <About ref={(el) => (navRef.current[1] = el)} />
             <Experience ref={(el) => (navRef.current[2] = el)} />
             <Skill ref={(el) => (navRef.current[3] = el)} />
+            <Project ref={(el) => (navRef.current[4] = el)} />
+            <Other ref={(el) => (navRef.current[5] = el)} />
             <Footer />
         </>
     );

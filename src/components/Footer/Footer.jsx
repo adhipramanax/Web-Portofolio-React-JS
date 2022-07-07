@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <div class="b-example-divider">
-                <div class="container">
+                <div class="container pt-5">
                     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                         <div class="col-7 d-flex gap-2 mb-2 w-100 btn-footer-mob">
                             <a class="text-link-mini btn btn-dark w-100" href="https://www.instagram.com/panji_adhipramana" target="_blank">

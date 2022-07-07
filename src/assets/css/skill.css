@@ -61,6 +61,17 @@
     animation: load 10s;
 }
 
+@media screen and (max-width: 767px) {
+    .progresses svg {
+        width: 6rem;
+        height: 6rem;
+    }
+    .progresses > li:after {
+        top: 1.5rem;
+        font-size: 2rem;
+    }
+}
+
 /* card skills */
 .nav-link-bar {
     color: #ef6817 !important;

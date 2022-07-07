@@ -4,7 +4,7 @@ const CardAcademy = () => {
     return (
         <>
             <div class="row pt-4 ">
-                <div class="col-sm-6">
+                <div class="col-sm-6 pt-2">
                     <div class="card p-3 h-100">
                         <div className="row">
                             <div className="about-img col-2 p-2">
@@ -27,7 +27,7 @@ const CardAcademy = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 pt-2">
                     <div class="card p-3 h-100">
                         <div className="row">
                             <div className="about-img col-2 p-2">

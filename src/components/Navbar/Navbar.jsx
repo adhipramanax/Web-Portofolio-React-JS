@@ -18,6 +18,14 @@ const Navbar = (props) => {
             name: "Skills",
             link: "#skills",
         },
+        {
+            name: "Project",
+            link: "#project",
+        },
+        {
+            name: "Other",
+            link: "#other",
+        },
     ];
 
     return (
