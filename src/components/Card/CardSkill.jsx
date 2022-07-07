@@ -25,7 +25,7 @@ const CardSkill = () => {
             name: "League",
         },
         {
-            id: "other",
+            id: "otherSkill",
             name: "Other",
         },
     ];
@@ -70,7 +70,7 @@ const CardSkill = () => {
                 <div class="tab-pane fade show bg-light" id="league" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
                     <BarLeague />
                 </div>
-                <div class="tab-pane fade show bg-light" id="other" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <div class="tab-pane fade show bg-light" id="otherSkill" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
                     <BarOther />
                 </div>
             </div>

@@ -6,9 +6,9 @@ import CardProject from "../Card/CardProject";
 const Project = React.forwardRef((props, ref) => {
     return (
         <>
-            <div className="container-fluid" id="project" ref={ref}>
-                <div className="container-sm container-project pt-5">
-                    <h2 className="text-dark pt-4">Project</h2>
+            <div className="container-fluid pb-5" id="project" ref={ref}>
+                <div className="container-sm container-project pt-5 pb-5">
+                    <h2 className="text-dark pt-5">Project</h2>
                     <p class="btn-bottom pt-2 pb-2" />
                     <div class="row-a row">
                         <CardProject />
