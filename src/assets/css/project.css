@@ -61,11 +61,47 @@ h1 {
 }
 .card-a .wrapper {
     background-color: #fff;
-    min-height: 440px;
+    min-height: 400px;
+    min-width: 100%;
+    /* height: 400px; */
     position: relative;
     overflow: hidden;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
 }
+.wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 1200px) {
+    .card-a .wrapper {
+        background-size: cover;
+        background-size: 100%;
+        min-height: 310px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card-a .wrapper {
+        background-size: cover;
+        background-size: 100%;
+        min-height: 450px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .card-a .wrapper {
+        background-size: cover;
+        background-size: 100%;
+        min-height: 260px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .card-a .wrapper {
+        background-size: cover;
+        background-size: 100%;
+        min-height: 200px;
+    }
+}
+
 .card-a .wrapper:hover .data {
     transform: translateY(0);
 }
@@ -104,6 +140,7 @@ h1 {
         cover no-repeat;
     background: url(https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657168710/Web%20Fortofolio/porto2.png) center/cover no-repeat;
 } */
+
 .date {
     position: absolute;
     top: 0;

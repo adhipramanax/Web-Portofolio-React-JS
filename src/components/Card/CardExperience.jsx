@@ -9,6 +9,7 @@ const CardExperience = () => {
             view: "https://www.dicoding.com",
             logo: "https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657168710/Web%20Fortofolio/dicoding.png",
             Certificate: "https://www.dicoding.com/certificates/1RXY4WKNKPVM",
+            target: "_blank",
         },
         {
             title: "BINAR ACADEMY",
@@ -16,7 +17,8 @@ const CardExperience = () => {
             desc: "Studies facilitated by the government are independent campuses to study outside campus for one full semester learning about Full stack web Developer.",
             view: "https://www.binaracademy.com",
             logo: "https://res.cloudinary.com/dhuvbrmgg/image/upload/v1656570573/Web%20Fortofolio/binar.jpg",
-            Certificate: "https://www.dicoding.com/certificates/1RXY4WKNKPVM",
+            Certificate: "#skill",
+            target: "",
         },
     ];
     return (
@@ -44,7 +46,7 @@ const CardExperience = () => {
                                                         <a href={`${exp.view}`} target="_blank" class="btn btn-dark">
                                                             View Site
                                                         </a>
-                                                        <a href={`${exp.Certificate}`} target="_blank" class="btn btn-dark">
+                                                        <a href={`${exp.Certificate}`} target={`${exp.target}`} class="btn btn-dark">
                                                             View Certificate
                                                         </a>
                                                     </div>
@@ -57,7 +59,7 @@ const CardExperience = () => {
                                                     <a href={`${exp.view}`} target="_blank" class="btn btn-dark w-100">
                                                         View Site
                                                     </a>
-                                                    <a href={`${exp.Certificate}`} target="_blank" class="btn btn-dark w-100">
+                                                    <a href={`${exp.Certificate}`} target={`${exp.target}`} class="btn btn-dark w-100">
                                                         View Certificate
                                                     </a>
                                                 </div>

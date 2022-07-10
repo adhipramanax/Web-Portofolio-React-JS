@@ -21,14 +21,14 @@ const CardProject = () => {
             description:
                 "Secondhand is an online marketplace platform for buying and selling used goods that sells accessories, electronics, clothes, smartphones and unused or other used goods that are still fit for use. built with React JS and Express JS",
             background: `url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657214278/Web%20Fortofolio/secondhand.png") center/cover no-repeat`,
-            url: "https://react-redux-adhipramanax.netlify.app",
+            // url: "https://react-redux-adhipramanax.netlify.app",
         },
     ];
     return (
         <>
             {projects.map((project) => {
                 return (
-                    <div class="example-1 card-a col-sm-6 col-12 pb-2">
+                    <div class="example-1 card-a col-lg-6 col-12 pb-2">
                         <div class="wrapper" style={{ background: `${project.background}` }}>
                             <div class="date">
                                 <span class="day">{project.day}</span>

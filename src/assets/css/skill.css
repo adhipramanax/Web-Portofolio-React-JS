@@ -41,6 +41,7 @@
     font-size: 2rem;
     text-align: center;
 }
+
 .progresses svg {
     width: 10rem;
     height: 10rem;
@@ -135,127 +136,106 @@
     border-radius: 5px;
     border: 1px solid #000;
 }
-/* Html */
+/* Skill */
 .html {
-    width: 80%;
+    width: 75%;
     background-color: #ef6817;
     display: inline-block;
-    animation: html5 2s ease-out;
+    animation: skillfull 2s ease-out;
     padding-right: 10px;
 }
-@keyframes html5 {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 80%;
-    }
-}
-/* css */
+
 .css {
     width: 75%;
     background-color: #27ae60;
     display: inline-block;
-    animation: css3 2s ease-out;
+    animation: skillfull 2s ease-out;
     padding-right: 10px;
 }
-@keyframes css3 {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 75%;
-    }
-}
-/* react */
+
 .react {
-    width: 65%;
+    width: 50%;
     background-color: #04d8f9;
     display: inline-block;
-    animation: react 2s ease-out;
+    animation: intermediate 2s ease-out;
     padding-right: 10px;
 }
-@keyframes react {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 65%;
-    }
-}
-/* bootstrap */
+
 .bootstrap {
-    width: 80%;
+    width: 75%;
     background-color: #563d7c;
     display: inline-block;
-    animation: bootstrap 2s ease-out;
+    animation: skillfull 2s ease-out;
     padding-right: 10px;
 }
-@keyframes bootstrap {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 80%;
-    }
-}
-/* laravel */
+
 .laravel {
-    width: 30%;
+    width: 25%;
     background-color: #fb503b;
     display: inline-block;
-    animation: laravel 2s ease-out;
+    animation: beginer 2s ease-out;
     padding-right: 10px;
 }
-@keyframes laravel {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 30%;
-    }
-}
-/* javascript */
+
 .javascript {
-    width: 30%;
+    width: 25%;
     background-color: #f0db4f;
     display: inline-block;
-    animation: javascript 2s ease-out;
+    animation: beginer 2s ease-out;
     padding-right: 10px;
 }
-@keyframes javascript {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 30%;
-    }
-}
-/* Figma */
+
 .figma {
     width: 75%;
     background-color: #ff69b4;
     display: inline-block;
-    animation: figma 2s ease-out;
+    animation: skillfull 2s ease-out;
     padding-right: 10px;
 }
-@keyframes figma {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 75%;
-    }
-}
-/* corel Draw */
+
 .corel {
     width: 50%;
     background-color: #00ff00;
     display: inline-block;
-    animation: corel 2s ease-out;
+    animation: intermediate 2s ease-out;
     padding-right: 10px;
 }
-@keyframes corel {
+
+.express {
+    width: 25%;
+    background-color: #68a063;
+    display: inline-block;
+    animation: beginer 2s ease-out;
+    padding-right: 10px;
+}
+
+.git {
+    width: 75%;
+    background-color: #3e2c0d;
+    display: inline-block;
+    animation: skillfull 2s ease-out;
+    padding-right: 10px;
+}
+
+.scrum {
+    width: 75%;
+    background-color: #1d202d;
+    display: inline-block;
+    animation: skillfull 2s ease-out;
+    padding-right: 10px;
+}
+
+/* animate */
+
+@keyframes beginer {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 25%;
+    }
+}
+@keyframes intermediate {
     0% {
         width: 0px;
     }
@@ -263,51 +243,19 @@
         width: 50%;
     }
 }
-/* Express Js */
-.express {
-    width: 30%;
-    background-color: #68a063;
-    display: inline-block;
-    animation: express 2s ease-out;
-    padding-right: 10px;
-}
-@keyframes express {
+@keyframes skillfull {
     0% {
         width: 0px;
     }
     100% {
-        width: 30%;
+        width: 75%;
     }
 }
-/* git */
-.git {
-    width: 80%;
-    background-color: #3e2c0d;
-    display: inline-block;
-    animation: git 2s ease-out;
-    padding-right: 10px;
-}
-@keyframes git {
+@keyframes expert {
     0% {
         width: 0px;
     }
     100% {
-        width: 80%;
-    }
-}
-/* scrum */
-.scrum {
-    width: 80%;
-    background-color: #1d202d;
-    display: inline-block;
-    animation: scrum 2s ease-out;
-    padding-right: 10px;
-}
-@keyframes scrum {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 80%;
+        width: 100%;
     }
 }

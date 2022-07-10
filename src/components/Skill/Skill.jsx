@@ -6,19 +6,23 @@ const Skill = React.forwardRef((props, ref) => {
     const skills = [
         {
             name: "UI/UX",
-            percent: 60,
+            percent: 50,
+            tier: "Beginner",
         },
         {
             name: "Frontend",
             percent: 75,
+            tier: "Beginner",
         },
         {
             name: "Backend",
-            percent: 30,
+            percent: 25,
+            tier: "Beginner",
         },
         {
             name: "Git",
-            percent: 70,
+            percent: 75,
+            tier: "Beginner",
         },
     ];
 
@@ -32,7 +36,8 @@ const Skill = React.forwardRef((props, ref) => {
                     <div className="d-flex justify-content-center">
                         <ul className="progresses ">
                             {skills.map((skill) => (
-                                <li data-name={skill.name} data-percent={`${skill.percent}%`}>
+                                // <li className="fs-4" data-name={skill.name} data-percent={`${skill.tier}`}>
+                                <li className="fs-4" data-name={skill.name} data-percent={`${skill.percent}%`}>
                                     <svg viewBox="-10 -10 229 229">
                                         <g fill="none" strokeWidth="6" transform="translate(100,100)">
                                             <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#grad)" />

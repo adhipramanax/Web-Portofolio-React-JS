@@ -5,35 +5,44 @@ const SkillBar = () => {
         {
             id: "html",
             name: "HTML",
-            value: 80,
+            value: 75,
+            tier: "Skillfull",
         },
         {
             id: "css",
             name: "CSS",
             value: 75,
+            tier: "Skillfull",
         },
         {
             id: "react",
             name: "React JS",
-            value: 65,
+            value: 50,
+            tier: "Intermediate",
         },
         {
             id: "bootstrap",
             name: "Bootstrap",
-            value: 80,
+            value: 75,
+            tier: "Skillfull",
         },
         {
             id: "laravel",
             name: "Laravel",
-            value: 30,
+            value: 25,
+            tier: "Beginner",
         },
     ];
     return (
         <>
             <div className="row p-4">
                 {skillsBar.map((skill) => (
-                    <div className="col-6 mt-2">
-                        <h4>{skill.name}</h4>
+                    <div className="col-sm-6 col-12 mt-2">
+                        <div className="d-flex justify-content-between">
+                            <h4>{skill.name}</h4>
+                            <h5>{skill.tier}</h5>
+                        </div>
+
                         <div class="bar-skill">
                             <div class={`skills ${skill.id}`}>{`${skill.value}%`}</div>
                         </div>

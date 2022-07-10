@@ -40,7 +40,7 @@ const CardAcademy = () => {
                                     <span className="text-mob fs-6 fst-italic">(2019-Present)</span>
                                 </h5>
                                 <h2 className="btn-bottom"></h2>
-                                <p class="card-text">The education I am currently doing is at Unesa Negeri Surabaya majoring in Bachelor of Applied Science - Informatics Engineering</p>
+                                <p class="card-text">The education I am currently doing is at SURABAYA STATE UNIVERSITY majoring in Bachelor of Applied Science - Informatics Engineering</p>
                             </div>
                             <div className="btn-link">
                                 <a href="https://www.unesa.ac.id" class="btn btn-dark mt-2 w-100" target="_blank">

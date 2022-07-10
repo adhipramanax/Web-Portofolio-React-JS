@@ -4,6 +4,7 @@ import BarLeague from "../Bar/BarLeague";
 import BarOther from "../Bar/BarOther";
 import BarUiUx from "../Bar/BarUiUx";
 import SkillBar from "../Bar/SkillBar";
+// Beginer, Intermediate, Skillfull, Expert
 
 const CardSkill = () => {
     const skills = [
