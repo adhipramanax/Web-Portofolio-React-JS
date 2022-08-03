@@ -17,8 +17,8 @@ const CardExperience = () => {
             desc: "Studies facilitated by the government are independent campuses to study outside campus for one full semester learning about Full stack web Developer.",
             view: "https://www.binaracademy.com",
             logo: "https://res.cloudinary.com/dhuvbrmgg/image/upload/v1656570573/Web%20Fortofolio/binar.jpg",
-            Certificate: "#skill",
-            target: "",
+            Certificate: "https://res.cloudinary.com/dhuvbrmgg/image/upload/v1659539158/Web%20Fortofolio/Certificate%20Of%20Completion%20Binar%20Academy.png",
+            target: "_blank",
         },
     ];
     return (

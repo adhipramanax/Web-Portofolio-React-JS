@@ -21,7 +21,7 @@ const CardProject = () => {
             description:
                 "Secondhand is an online marketplace platform for buying and selling used goods that sells accessories, electronics, clothes, smartphones and unused or other used goods that are still fit for use. built with React JS and Express JS",
             background: `url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657214278/Web%20Fortofolio/secondhand.png") center/cover no-repeat`,
-            // url: "https://react-redux-adhipramanax.netlify.app",
+            url: "https://adhipramana.netlify.app",
         },
     ];
     return (
