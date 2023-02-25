@@ -1,261 +1,268 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,400);
 @-webkit-keyframes load {
-    0% {
-        stroke-dashoffset: 0;
-    }
+  0% {
+    stroke-dashoffset: 0;
+  }
 }
 @keyframes load {
-    0% {
-        stroke-dashoffset: 0;
-    }
+  0% {
+    stroke-dashoffset: 0;
+  }
 }
 .progresses {
-    position: relative;
-    display: inline-block;
-    padding: 0;
-    text-align: center;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
 }
 .progresses > li {
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    color: #93a2ac;
-    font-family: Lato;
-    font-weight: 100;
-    margin: 2rem;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #93a2ac;
+  font-family: Lato;
+  font-weight: 100;
+  margin: 2rem;
 }
 .progresses > li:before {
-    content: attr(data-name);
-    position: absolute;
-    width: 100%;
-    bottom: -2rem;
-    font-weight: 400;
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
 }
 .progresses > li:after {
-    content: attr(data-percent);
-    position: absolute;
-    width: 100%;
-    top: 3.7rem;
-    left: 0;
-    font-weight: 400;
-    font-size: 2rem;
-    text-align: center;
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .progresses svg {
-    width: 10rem;
-    height: 10rem;
+  width: 10rem;
+  height: 10rem;
 }
 .progresses svg:nth-child(2) {
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform: rotate(-90deg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(-90deg);
 }
 .progresses svg:nth-child(2) path {
-    fill: none;
-    stroke-width: 15;
-    stroke-dasharray: 629;
-    stroke: #fff;
-    opacity: 0.9;
-    -webkit-animation: load 10s;
-    animation: load 10s;
+  fill: none;
+  stroke-width: 15;
+  stroke-dasharray: 629;
+  stroke: #fff;
+  opacity: 0.9;
+  -webkit-animation: load 10s;
+  animation: load 10s;
 }
 
 @media screen and (max-width: 767px) {
-    .progresses svg {
-        width: 6rem;
-        height: 6rem;
-    }
-    .progresses > li:after {
-        top: 1.5rem;
-        font-size: 2rem;
-    }
+  .progresses svg {
+    width: 6rem;
+    height: 6rem;
+  }
+  .progresses > li:after {
+    top: 1.5rem;
+    font-size: 2rem;
+  }
 }
 
 /* card skills */
 .nav-link-bar {
-    color: #ef6817 !important;
+  color: #ef6817 !important;
 }
 
 .skills {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 .skills h1 {
-    text-align: center;
-    font-family: Verdana;
-    color: #cccccc;
-    font-weight: 300;
+  text-align: center;
+  font-family: Verdana;
+  color: #cccccc;
+  font-weight: 300;
 }
 .skills hr {
-    margin: 50px 5%;
+  margin: 50px 5%;
 }
 .skills .skill-column {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 @media (max-width: 1000px) {
-    .skills .skill-column {
-        width: 100%;
-    }
+  .skills .skill-column {
+    width: 100%;
+  }
 }
 .skills .skill-column .skill-label {
-    font-size: 20px;
-    text-align: center;
-    font-family: Verdana;
-    color: #cccccc;
+  font-size: 20px;
+  text-align: center;
+  font-family: Verdana;
+  color: #cccccc;
 }
 .skills .skill-column .skill-icons {
-    text-align: center;
+  text-align: center;
 }
 .skills .skill-column .skill-icons span {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    display: inline-block;
-    background: #cccccc;
-    margin: 10px 5px 20px 5px;
-    font-weight: 700;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #cccccc;
+  margin: 10px 5px 20px 5px;
+  font-weight: 700;
 }
 
 /* skill bar */
 
 .bar-skill {
-    width: 100%;
-    background-color: #ddd;
-    display: relative;
-    border-radius: 2px;
+  width: 100%;
+  background-color: #ddd;
+  display: relative;
+  border-radius: 2px;
 }
 
 .skills {
-    text-align: right;
-    /* padding-right: 20px; */
-    /* line-height: 40px; */
-    color: white;
-    border-radius: 5px;
-    border: 1px solid #000;
+  text-align: right;
+  /* padding-right: 20px; */
+  /* line-height: 40px; */
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #000;
 }
 /* Skill */
 .html {
-    width: 75%;
-    background-color: #ef6817;
-    display: inline-block;
-    animation: skillfull 2s ease-out;
-    padding-right: 10px;
+  width: 75%;
+  background-color: #ef6817;
+  display: inline-block;
+  animation: skillfull 2s ease-out;
+  padding-right: 10px;
 }
 
 .css {
-    width: 75%;
-    background-color: #27ae60;
-    display: inline-block;
-    animation: skillfull 2s ease-out;
-    padding-right: 10px;
+  width: 75%;
+  background-color: #27ae60;
+  display: inline-block;
+  animation: skillfull 2s ease-out;
+  padding-right: 10px;
 }
 
 .react {
-    width: 50%;
-    background-color: #04d8f9;
-    display: inline-block;
-    animation: intermediate 2s ease-out;
-    padding-right: 10px;
+  width: 50%;
+  background-color: #04d8f9;
+  display: inline-block;
+  animation: intermediate 2s ease-out;
+  padding-right: 10px;
 }
 
 .bootstrap {
-    width: 75%;
-    background-color: #563d7c;
-    display: inline-block;
-    animation: skillfull 2s ease-out;
-    padding-right: 10px;
+  width: 75%;
+  background-color: #563d7c;
+  display: inline-block;
+  animation: skillfull 2s ease-out;
+  padding-right: 10px;
 }
 
 .laravel {
-    width: 25%;
-    background-color: #fb503b;
-    display: inline-block;
-    animation: beginer 2s ease-out;
-    padding-right: 10px;
+  width: 25%;
+  background-color: #fb503b;
+  display: inline-block;
+  animation: beginer 2s ease-out;
+  padding-right: 10px;
+}
+.tailwind {
+  width: 75%;
+  background-color: #22d3ee;
+  display: inline-block;
+  animation: skillfull 2s ease-out;
+  padding-right: 10px;
 }
 
 .javascript {
-    width: 25%;
-    background-color: #f0db4f;
-    display: inline-block;
-    animation: beginer 2s ease-out;
-    padding-right: 10px;
+  width: 25%;
+  background-color: #f0db4f;
+  display: inline-block;
+  animation: beginer 2s ease-out;
+  padding-right: 10px;
 }
 
 .figma {
-    width: 75%;
-    background-color: #ff69b4;
-    display: inline-block;
-    animation: skillfull 2s ease-out;
-    padding-right: 10px;
+  width: 75%;
+  background-color: #ff69b4;
+  display: inline-block;
+  animation: skillfull 2s ease-out;
+  padding-right: 10px;
 }
 
 .corel {
-    width: 50%;
-    background-color: #00ff00;
-    display: inline-block;
-    animation: intermediate 2s ease-out;
-    padding-right: 10px;
+  width: 50%;
+  background-color: #00ff00;
+  display: inline-block;
+  animation: intermediate 2s ease-out;
+  padding-right: 10px;
 }
 
 .express {
-    width: 25%;
-    background-color: #68a063;
-    display: inline-block;
-    animation: beginer 2s ease-out;
-    padding-right: 10px;
+  width: 25%;
+  background-color: #68a063;
+  display: inline-block;
+  animation: beginer 2s ease-out;
+  padding-right: 10px;
 }
 
 .git {
-    width: 75%;
-    background-color: #3e2c0d;
-    display: inline-block;
-    animation: skillfull 2s ease-out;
-    padding-right: 10px;
+  width: 75%;
+  background-color: #3e2c0d;
+  display: inline-block;
+  animation: skillfull 2s ease-out;
+  padding-right: 10px;
 }
 
 .scrum {
-    width: 75%;
-    background-color: #1d202d;
-    display: inline-block;
-    animation: skillfull 2s ease-out;
-    padding-right: 10px;
+  width: 75%;
+  background-color: #1d202d;
+  display: inline-block;
+  animation: skillfull 2s ease-out;
+  padding-right: 10px;
 }
 
 /* animate */
 
 @keyframes beginer {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 25%;
-    }
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 25%;
+  }
 }
 @keyframes intermediate {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 50%;
-    }
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
 }
 @keyframes skillfull {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 75%;
-    }
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 75%;
+  }
 }
 @keyframes expert {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 100%;
-    }
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
 }
