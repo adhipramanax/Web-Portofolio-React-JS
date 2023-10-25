@@ -35,7 +35,30 @@ const CardProject = () => {
       background: `url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1676882302/Web%20Fortofolio/Screenshot_12.png") center/cover no-repeat`,
       url: "http://demo.semarangtechnopark.id",
     },
+    {
+      from: "Koperasi As-sakinah Jawa Timur",
+      day: 20,
+      month: "Nov",
+      year: 2023,
+      title: "Sakinah Mart",
+      description:
+        'Sakinah Mart is a website project that I created to support my thesis entitled "Application of Augmented Reality as Digital Marketing Media in Product Packaging Using the Marker Based Tracking Method"',
+      background: `url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1698222286/Web%20Fortofolio/ucd6me6vcpa74kmkdek7.png") center/cover no-repeat`,
+      url: "http://sakinahmart.cloud/",
+    },
+    {
+      from: "CV. Pramita Adhipramana",
+      day: 14,
+      month: "Des",
+      year: 2023,
+      title: "Pramita Kubah",
+      description:
+        "Pramita Kubah is a website that offers services for making mosque domes and mosque ornaments in the Berau Regency area, which I made myself for CV. Pramita Adhipramana as a service promotion media",
+      background: `url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1698229235/Web%20Fortofolio/yh7yttmz0v4voklmlxvm.png") center/cover no-repeat`,
+      url: "https://pramitakubah.com/",
+    },
   ];
+
   return (
     <>
       {projects.map((project) => {
