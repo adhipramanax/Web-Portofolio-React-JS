@@ -21,7 +21,7 @@ const Footer = () => {
                             </a>
                         </div>
                         <div class="col-md-5 d-flex align-items-center">
-                            <span class="text-muted">&copy; 2022 made with love - by Panji Adhipramana S</span>
+                            <span class="text-muted">&copy; 2024 made with love - by Panji Adhipramana S</span>
                         </div>
                         <div class="col-7 d-flex gap-2 btn-footer-desk">
                             <a class="btn btn-dark w-100" href="https://www.instagram.com/panji_adhipramana" target="_blank">

@@ -10,9 +10,9 @@ const Business = () => {
                         <p class="btn-bottom pt-2 pb-2" />
                     </div>
                     <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-2 business-img p-3">
-                                <img src="https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657204128/Web%20Fortofolio/logo-basinang.png" class="img-fluid rounded-start" alt="..." />
+                        <div class="row g-0 ">
+                            <div class="col-md-2 business-img p-3 ">
+                                <img src="https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657204128/Web%20Fortofolio/logo-basinang.png" className="img-fluid rounded-start " alt="logo basinang" />
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body pb-0">
@@ -30,7 +30,7 @@ const Business = () => {
                                         </a>
                                     </div>
                                     <div className="col btn-store btn border col-sm-6 mb-2 btn-dark">
-                                        <a href="https://shopee.co.id/adhipramanax" target="_blank">
+                                        <a href="https://shopee.co.id/basinang_id" target="_blank">
                                             <img src="https://res.cloudinary.com/dhuvbrmgg/image/upload/v1657212951/Web%20Fortofolio/shopee2.png" alt="logo-shopee" />
                                         </a>
                                     </div>

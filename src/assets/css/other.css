@@ -26,8 +26,18 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .business-img img {
+        width: 50%;
+    }
+    .business-img {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .btn-store img {
         height: 50px;
     }
 }
+
