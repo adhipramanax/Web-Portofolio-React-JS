@@ -16,13 +16,13 @@ jobs:
       - name: Pull latest code
         run: |
           export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-          cd /mnt/data/app/react/portofolioPanji
-          git config --global --add safe.directory /mnt/data/app/react/portofolioPanji
+          cd /mnt/data/app/web/portofolioPanji
+          git config --global --add safe.directory /mnt/data/app/web/portofolioPanji
           git pull origin main
 
       - name: Rebuild & restart container
         run: |
-          cd /mnt/data/app/react/portofolioPanji
+          cd /mnt/data/app/web/portofolioPanji
           docker compose down
           docker compose up -d --build
 
