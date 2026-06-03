@@ -1,0 +1,30 @@
+name: Deploy to TrueNAS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Pull latest code
+        run: |
+          export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+          cd /mnt/data/app/react/portofolioPanji
+          git config --global --add safe.directory /mnt/data/app/react/portofolioPanji
+          git pull origin main
+
+      - name: Rebuild & restart container
+        run: |
+          cd /mnt/data/app/react/portofolioPanji
+          docker compose down
+          docker compose up -d --build
+
+      - name: Done
+        run: echo "Deploy selesai!"
