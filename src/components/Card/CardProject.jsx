@@ -47,7 +47,7 @@ const CardProject = () => {
       url: "http://sakinahmart.cloud/",
     },
     {
-      from: "CV. Pramita Adhipramana",
+      from: "Pramita Kubah",
       day: 14,
       month: "Des",
       year: 2023,
@@ -57,31 +57,42 @@ const CardProject = () => {
       background: `url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1698229235/Web%20Fortofolio/yh7yttmz0v4voklmlxvm.png") center/cover no-repeat`,
       url: "https://pramitakubah.com/",
     },
+    {
+      from: "CV. Pramita Adhipramana",
+      day: 15,
+      month: "Apr",
+      year: 2026,
+      title: "CV. Pramita Adhipramana",
+      description:
+        "CV Pramita Adhipramana is a construction company specializing in architectural and ornamental building elements. Committed to quality and timely delivery, the company provides durable, high-value solutions tailored to project needs.",
+      background: `url("https://res.cloudinary.com/dhuvbrmgg/image/upload/v1776255663/Web%20Fortofolio/web-pa.png") center/cover no-repeat`,
+      url: "https://pramitaadhipramana.com/",
+    },
   ];
 
   return (
     <>
-      {projects.map((project) => {
+      {projects.map((project, index) => {
         return (
-          <div class="example-1 card-a col-lg-6 col-12 pb-2">
+          <div key={index} className="example-1 card-a col-lg-6 col-12 pb-2">
             <div
-              class="wrapper"
+              className="wrapper"
               style={{ background: `${project.background}` }}
             >
-              <div class="date">
-                <span class="day">{project.day}</span>
-                <span class="month">{project.month}</span>
-                <span class="year">{project.year}</span>
+              <div className="date">
+                <span className="day">{project.day}</span>
+                <span className="month">{project.month}</span>
+                <span className="year">{project.year}</span>
               </div>
-              <div class="data">
-                <div class="content">
-                  <span class="author">{project.from}</span>
-                  <h1 class="title">
-                    <a href={project.url} target="_blank">
+              <div className="data">
+                <div className="content">
+                  <span className="author">{project.from}</span>
+                  <h1 className="title">
+                    <a href={project.url} target="_blank" rel="noreferrer">
                       {project.title}
                     </a>
                   </h1>
-                  <p class="text">{[project.description]}</p>
+                  <p className="text">{project.description}</p>
                 </div>
               </div>
             </div>
