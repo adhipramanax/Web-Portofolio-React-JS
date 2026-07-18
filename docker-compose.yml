@@ -4,4 +4,4 @@ services:
     container_name: portofolio-panji
     restart: unless-stopped
     ports:
-      - "8008:80"
+      - "8702:80"
